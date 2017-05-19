@@ -1,0 +1,147 @@
+body {
+  font-family: Lobster;
+  font-size: 1.7em;
+  color: #E5E5E5;
+  background: url("http://fs5.directupload.net/images/170505/is9bcqam.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+hr {
+  border-top: 1px solid #E5E5E5 !important;
+  margin-bottom:20px !important; 
+  margin-top:20px !important;
+}
+
+#navigation {
+  width: 100%;
+}
+
+.navbar {
+  border-bottom: solid 1px;
+}
+
+.navbar-brand {
+  font-size: 1.7em;
+}
+
+.navbar-inverse {
+  background: rgba(0,0,0,0.9);
+}
+
+.navbar-toggler {
+  margin: 15px;
+  padding: 15px;
+  float: right;
+}
+
+.nav-item {
+  padding: 1%;
+}
+
+.img-responsive {
+  border: solid 3px;
+  border-radius: 50%;
+}
+
+#img-logo {
+  height: 75px; 
+  width: 75px; 
+}
+
+#main-content {
+  margin-top: 20px;
+  width: 90%;
+}
+
+p {
+  padding: 5%;
+}
+
+.jumbotron {
+  font-family: Share;
+  background: rgba(0,0,0,0.8);
+}
+
+h2, 
+h3 {
+  font-family: Lobster;
+}
+
+.skills {
+  padding: 5%;
+}
+
+.skills i {
+  font-size: 4em;
+}
+
+.img-portfolio {
+  box-shadow: 3px 3px 3px #888888;
+  max-width: 80%;
+}
+
+.icons i {
+  color: #E5E5E5;
+}
+
+.social {
+  font-family: Share;
+  color: #E5E5E5;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.social:hover, 
+.social:active, 
+.social:visited {
+  color: #E5E5E5;
+  text-decoration: none;
+}
+
+.footer {
+  padding: 0;
+  margin: 0;
+  border-top: solid 1px;
+  background: rgba(0,0,0,0.9);
+}
+
+.thumb {
+  margin: 0 auto;
+  max-width: 80%;
+  position: relative;
+}
+
+.hover-opaque {
+  background: #000;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+}
+
+.thumb .fa {
+  color: #FFF;
+  margin: -15px;
+  position: absolute;
+  opacity: 0;
+  top: 45%;
+  right: 50%;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+}
+
+.thumb:hover .hover-opaque {
+  opacity: 0.5;
+}
+
+.thumb:hover .fa {
+  opacity: 1;
+}
