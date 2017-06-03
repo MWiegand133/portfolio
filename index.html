@@ -5,16 +5,39 @@
     <link href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <script src="https://use.fontawesome.com/568e21573d.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.6/dist/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
+    <title>Marc Wiegand - Portfolio</title>
+    <meta name="description" content="Contains info about what I can do and what I already did." />
+    <meta property="og:title" content="Marc Wiegand - Portfolio" />
+    <meta property="og:description" content="Contains info about what I can do and what I already did." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   </head>
   <body>
   <!-- begin Navigation -->  
     <nav class="navbar navbar-inverse navbar-toggleable-md navbar-fixed-top">
       <div class="container" id="navigation">
-        <a class="navbar-brand" href="#about">Marc Wiegand</a><img class="img-responsive" id="img-logo" src="http://fs5.directupload.net/images/170506/cchqo2ni.jpg">
+        <a class="navbar-brand" href="#about">Marc Wiegand</a><img class="img-responsive" id="img-logo" src="./img/logo.jpg">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navHeaderCollapse" aria-controls="#navHeaderCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,7 +66,7 @@
         <h2>About me</h2>
         <hr>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <h3>Who am I?</h3>
             <p> 
               My name is Marc and I'm from Germany, where I'm working as an IT specialist.
@@ -53,7 +76,7 @@
               I'm trying to expand my field of work using <a href="https://www.freecodecamp.com/" target="_blank">FreeCodeCamp</a> and other freely available resources to learn HTML5, CSS3, JavaScript and everything else there is to know about web-development.
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <h3>My skills</h3>
               <div class="row">
                 <div class="col-md-4 text-center skills">
@@ -98,7 +121,7 @@
         <div class="row">
           <div class="col-md-3 text-center">
             <div class="thumb">
-              <a href="http://codepen.io/MWiegand133/full/ZKKqzY/" target="_blank"><img class="img-portfolio" src="http://fs5.directupload.net/images/170513/rxiiwpq6.jpg">
+              <a href="https://mw-tribute.surge.sh" target="_blank"><img class="img-portfolio" src="./img/tribute_thumb.jpg">
                 <div class="hover-opaque"></div>
                 <i class="fa fa-fire fa-3x"></i>
               </a>
@@ -109,7 +132,7 @@
           </div>
           <div class="col-md-3 text-center">
             <div class="thumb">
-              <a href="http://codepen.io/MWiegand133/full/LyrYxv/" target="_blank"><img class="img-portfolio" src="http://fs5.directupload.net/images/170514/l2y3xe5n.jpg">
+              <a href="https://mw-quotegen.surge.sh/" target="_blank"><img class="img-portfolio" src="./img/generator_thumb.jpg">
                 <div class="hover-opaque"></div>
                 <i class="fa fa-fire fa-3x"></i>
               </a>
@@ -120,7 +143,7 @@
           </div>
           <div class="col-md-3 text-center">
             <div class="thumb">
-              <a href="https://codepen.io/MWiegand133/full/OmEaLJ/" target="_blank"><img class="img-portfolio" src="http://fs5.directupload.net/images/170517/vmax34ek.jpg">
+              <a href="https://mw-weather.surge.sh/" target="_blank"><img class="img-portfolio" src="./img/weather_thumb.jpg">
                 <div class="hover-opaque"></div>
                 <i class="fa fa-fire fa-3x"></i>
               </a>
@@ -131,20 +154,31 @@
           </div>
           <div class="col-md-3 text-center">
             <div class="thumb">
-              <a href="#" target="_blank"><img class="img-portfolio" src="http://fs5.directupload.net/images/170513/v9cjpcim.jpg">
+              <a href="https://mw-wikiapi.surge.sh/" target="_blank"><img class="img-portfolio" src="./img/wikiapi_thumb.jpg">
                 <div class="hover-opaque"></div>
                 <i class="fa fa-fire fa-3x"></i>
               </a>
             </div>
             <div class="portfolio-caption">
-              <p>Placeholder</p>
+              <p>Wiki Search</p>
             </div>            
           </div>
         </div>
         <div class="row">
           <div class="col-md-3 text-center">
             <div class="thumb">
-              <a href="#" target="_blank"><img class="img-portfolio" src="http://fs5.directupload.net/images/170513/v9cjpcim.jpg">
+              <a href="https://mw-twitch.surge.sh" target="_blank"><img class="img-portfolio" src="./img/twitcher_thumb.jpg">
+                <div class="hover-opaque"></div>
+                <i class="fa fa-fire fa-3x"></i>
+              </a>
+            </div>
+            <div class="portfolio-caption">
+              <p>Twitcher</p>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="thumb">
+              <a href="#" target="_blank"><img class="img-portfolio" src="./img/placeholder.jpg">
                 <div class="hover-opaque"></div>
                 <i class="fa fa-fire fa-3x"></i>
               </a>
@@ -155,18 +189,7 @@
           </div>
           <div class="col-md-3 text-center">
             <div class="thumb">
-              <a href="#" target="_blank"><img class="img-portfolio" src="http://fs5.directupload.net/images/170513/v9cjpcim.jpg">
-                <div class="hover-opaque"></div>
-                <i class="fa fa-fire fa-3x"></i>
-              </a>
-            </div>
-            <div class="portfolio-caption">
-              <p>Placeholder</p>
-            </div>
-          </div>
-          <div class="col-md-3 text-center">
-            <div class="thumb">
-              <a href="#" target="_blank"><img class="img-portfolio" src="http://fs5.directupload.net/images/170513/v9cjpcim.jpg">
+              <a href="#" target="_blank"><img class="img-portfolio" src="./img/placeholder.jpg">
                 <div class="hover-opaque"></div>
                 <i class="fa fa-fire fa-3x"></i>
               </a>
@@ -177,7 +200,7 @@
           </div>
           <div class="col-md-3 text-center">
             <div class="thumb">
-              <a href="#" target="_blank"><img class="img-portfolio" src="http://fs5.directupload.net/images/170513/v9cjpcim.jpg">
+              <a href="#" target="_blank"><img class="img-portfolio" src="./img/placeholder.jpg">
                 <div class="hover-opaque"></div>
                 <i class="fa fa-fire fa-3x"></i>
               </a>

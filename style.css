@@ -2,7 +2,7 @@ body {
   font-family: Lobster;
   font-size: 1.7em;
   color: #E5E5E5;
-  background: url("http://fs5.directupload.net/images/170505/is9bcqam.jpg") no-repeat center center fixed; 
+  background: url("./img/background.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
